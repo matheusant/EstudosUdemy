@@ -19,4 +19,9 @@ public class MenuPrincipalActivity extends AppCompatActivity {
         startActivity(new Intent(getApplicationContext(), MainActivity.class));
     }
 
+    public void appGorjeta(View view){
+
+        startActivity(new Intent(getApplicationContext(), GorjetaActivity.class));
+    }
+
 }
